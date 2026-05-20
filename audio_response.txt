@@ -1,4 +1,1 @@
-status=success
-action=played
-sound=digital
-effective_volume=0.7
+
