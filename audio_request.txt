@@ -1,4 +1,1 @@
-event=button_clicked
-button_type=digital
-volume=70
-muted=false
+
