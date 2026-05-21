@@ -38,7 +38,7 @@ send_request(
 
 time.sleep(1)
 
-# Test 4: invalid button type
+# Test 4: invalid button type (will play default.wav)
 send_request(
     event='button_clicked',
     button_type='fake_button',
