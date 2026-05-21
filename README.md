@@ -40,7 +40,8 @@ Coded example for sending request:
 
 ## Response
 1. Microservice, after deciding how the SE will be executed (values modified), the execution response will be sent back via the response.txt.
-2. Audio.py open the response.txt, and write new order (playability after modification of values).
+2. [Contents (the values) are decided by ifs comparison for modification prior to return]
+3. Audio.py open the response.txt, and write new order (playability after modification of values).
    
 Coded example for returning response:  
 
