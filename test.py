@@ -15,13 +15,13 @@ send_request(
     volume=70,
     muted=False
 )
-'''
+
 time.sleep(1)
 
-# test 2: play generic sound
+# test 2: play default.wav sound
 send_request(
     event='button_clicked',
-    button_type='undo',
+    button_type='default',
     volume=50,
     muted=False
 )
@@ -31,7 +31,7 @@ time.sleep(1)
 # test 3: muted sound should not play
 send_request(
     event='button_clicked',
-    button_type='material_sand',
+    button_type='default',
     volume=70,
     muted=True
 )
@@ -45,4 +45,3 @@ send_request(
     volume=70,
     muted=False
 )
-'''
